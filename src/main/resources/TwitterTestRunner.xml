@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://test.ng.org/testng-1.0.dtd">
+
+<suite name="TestSuite" thread-count="2" parallel="false">
+    <!-- thread-count="2" parallel="true"-->
+    <test name="Twitter API Automation Test Script using Rest Assured">
+        
+        <classes>
+         <class name="tweettest.TweetApiClientTest"></class> 
+        </classes>
+
+    </test>
+
+   
+
+</suite>
